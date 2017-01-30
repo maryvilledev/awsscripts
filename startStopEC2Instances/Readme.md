@@ -1,4 +1,4 @@
-ngs of note:
+Things of note:
 
 1. You'll need to have the instances appropriately tagged for instance a key/value pair of TestStartStop/true for the filtering of hosts in the instanceListForLambdaWorker() and instanceNamesForNotification() functions.
 
