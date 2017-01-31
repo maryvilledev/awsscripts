@@ -17,7 +17,7 @@ def lambda_handler(event, context):
 def slackNotifier(messageText):
     slackData = {'username': 'AWS Config Compliance Checker', 'text': messageText}
     # Replace the value of 'channel' with the name of your channel, 'username' with the name of the bot and the url variable with the actual Slack webhook
-    url = 'https://hooks.slack.com/services/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'
+    url = 'https://hooks.slack.com/services/your/service/hook'
     
     r = requests.post(url, data=json.dumps(slackData), headers={'Content-Type':'application/json'})
     
