@@ -12,10 +12,10 @@ You'll need to create a webhook in Slack and use it as the value for the url var
 It also requires some external dependencies to be installed:
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt -t .
 ```
 
-Note that the `project-dir` is the same place you'll have your Python Lambda function. If you're on OSX also remember to place a `setup.cfg` file in the project-dir with the contents:
+If you're on OSX also remember to place a `setup.cfg` file in the project-dir with the contents:
 
 ```
 [install]
