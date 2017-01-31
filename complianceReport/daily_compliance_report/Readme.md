@@ -19,7 +19,6 @@ Things of note:
 	}
 	
 	```
-
 and
 
 	```
