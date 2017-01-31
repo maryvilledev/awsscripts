@@ -1,2 +1,5 @@
 *.zip
 .DS_Store
+setup.cfg
+requests/
+*.dist-info/
