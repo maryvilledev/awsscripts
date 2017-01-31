@@ -9,10 +9,10 @@ You should have an AWS Config Rule set up and it must be publishing evaluation r
 
 You'll need to create a webhook in Slack and use it as the value for the url variable.
 
-It also requires the `requests` library to be installed:
+It also requires some external dependencies to be installed:
 
 ```
-pip install requests -t /path/to/project-dir
+pip install -r requirements.txt
 ```
 
 Note that the `project-dir` is the same place you'll have your Python Lambda function. If you're on OSX also remember to place a `setup.cfg` file in the project-dir with the contents:
